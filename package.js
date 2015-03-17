@@ -1,9 +1,9 @@
 Package.describe({
-  name: "yogiben:autoform-file",
-  summary: "File upload for AutoForm",
-  description: "File upload for AutoForm",
+  name: "abdj:autoform-file",
+  summary: "File upload for AutoForm (AbDJ) for Autoform 5.0.2",
+  description: "File upload for AutoForm (AbDJ) for Autoform 5.0.2",
   version: "0.2.0",
-  git: "http://github.com/yogiben/autoform-file.git"
+  git: "http://github.com/abdj/meteor-autoform-file.git"
 });
 
 Package.onUse(function(api) {
