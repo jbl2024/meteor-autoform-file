@@ -1,9 +1,9 @@
 Package.describe({
-  name: "abdj:autoform-file",
+  name: "jbl2024:autoform-file",
   summary: "File upload for AutoForm (AbDJ) for Autoform 5.0.2",
   description: "File upload for AutoForm (AbDJ) for Autoform 5.0.2",
   version: "0.2.0",
-  git: "http://github.com/abdj/meteor-autoform-file.git"
+  git: "http://github.com/jbl2024/meteor-autoform-file.git"
 });
 
 Package.onUse(function(api) {
@@ -19,6 +19,7 @@ Package.onUse(function(api) {
     ],
     'client');
 
+  api.add_files('lib/client/helpers.js', 'client');
   api.add_files('lib/client/autoform-file.html', 'client');
   api.add_files('lib/client/autoform-file.less', 'client');
   api.add_files('lib/client/autoform-file.coffee', 'client');

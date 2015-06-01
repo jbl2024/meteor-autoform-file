@@ -1,2 +1,2 @@
 
-Quick Fork from yogiben/meteor-autoform-file to update package dependencies.
+Quick Fork from https://github.com/abdj/meteor-autoform-file to add link in template
